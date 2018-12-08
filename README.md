@@ -40,7 +40,7 @@ drone to evade incoming airplanes.</p>
    <li>Drone and Plane Movement (Timer bound)</li>
    <li>Arrow Key to Drone Movement Implementation</li>
    <li>Airplane Spawn / De-spawn Frame Implementation (Timer bound)</li>
-   <li>Frame.java (Most implementation)</li>
+   <li>Frame.java (Most implementation, editing)</li>
 </ul>
 <br>
 
