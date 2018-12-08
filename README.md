@@ -1,37 +1,46 @@
-Drone and Airplanes
-Drone
+<html>
+<body>
 
-Plane
+<h1>Drone and Airplanes</h1>
+<img src="drone.png" alt="Drone">
+<img src="airplane.png" alt="Plane">
+<p>Sidescroller game where the user move the
+drone to evade incoming airplanes.</p>
 
-Sidescroller game where the user move the drone to evade incoming airplanes.
+<h2>Team Members</h2>
+<p>Alvin Nguyen</p>
+<p>Darren Wong</p>
+<p>Spencer Enriquez</p>
+<br>
 
-Team Members
-Alvin Nguyen
+<h2>File Creation List</h2>
+<p>Alvin:</p>
+<ul>
+   <li>Aircraft.java</li>
+   <li>Drone.java</li>
+   <li>Plane.java</li>
+   <li>Hitbox.java</li>
+</ul>
+<br>
 
-Darren Wong
+<p>Darren:</p>
+<ul>
+   <li>Frame.java</li>
+   <li>Tester.java</li>
+   <li>drone.png</li>
+   <li>airplane.png</li>
+</ul>
+<br>
 
-Spencer Enriquez
+<p>Spencer:</p>
+<ul>
+   <li>TimeClock.java</li>
+   <li>Scoreboard.java</li>
+   <li>Drone and Plane Movement</li>
+   <li>Arrow Key to Drone Movement Implementation</li>
+   <li>Airplane Spawn / De-spawn Frame Implementation</li>
+</ul>
+<br>
 
-
-File Creation List
-Alvin:
-
-Aircraft.java
-Drone.java
-Plane.java
-Hitbox.java
-
-Darren:
-
-Frame.java
-Tester.java
-drone.png
-airplane.png
-
-Spencer:
-
-TimeClock.java
-Scoreboard.java
-Drone and Plane Movement
-Arrow Key to Drone Movement Implementation
-Airplane Spawn / De-spawn Frame Implementation
+</body>
+</html>
