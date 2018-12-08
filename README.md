@@ -36,9 +36,11 @@ drone to evade incoming airplanes.</p>
 <ul>
    <li>TimeClock.java</li>
    <li>Scoreboard.java</li>
-   <li>Drone and Plane Movement</li>
+   <li>Lives Counter implementation</li>
+   <li>Drone and Plane Movement (Timer bound)</li>
    <li>Arrow Key to Drone Movement Implementation</li>
-   <li>Airplane Spawn / De-spawn Frame Implementation</li>
+   <li>Airplane Spawn / De-spawn Frame Implementation (Timer bound)</li>
+   <li>Frame.java (Most implementation)</li>
 </ul>
 <br>
 
