@@ -9,6 +9,6 @@ public class Plane extends Aircraft {
 	}
 
 	public String toString() {
-		return "Plane at:\n" + this.getHitbox().printBounds();
+		return "";
 	}
 }
