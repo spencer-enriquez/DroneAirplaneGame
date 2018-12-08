@@ -34,7 +34,7 @@ public class Frame extends JFrame {
 		skyField.setPreferredSize(MAX_FRAME);
 		skyField.setBackground(lightblue);
 		Drone drn = new Drone(FRAME_WIDTH / 4, FRAME_HEIGHT / 4,
-			"src/drone.png");
+			"drone.png");
 		JLabel dLabel = new JLabel(drn);
 		skyField.add(dLabel);
 		dLabel.setBounds(drn.getX(), drn.getY(),
@@ -86,7 +86,7 @@ public class Frame extends JFrame {
 			int adjust = (int)(Math.random() * FRAME_WIDTH / 2);
 			planes.add(new Plane(FRAME_WIDTH + adjust,
 					i * 10 + adjust,
-					"src/airplane.png"));
+					"airplane.png"));
 			planeLabels.add(new JLabel(planes.get(i)));
 			planeLabels.get(i).setBounds(planes.get(i).getX(),
 						planes.get(i).getY(),
