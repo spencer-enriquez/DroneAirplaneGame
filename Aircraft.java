@@ -18,7 +18,8 @@ public abstract class Aircraft implements Icon {
 	private int h;
 	private int angle;
 	private BufferedImage img;
-	Hitbox zone;
+	// Hitbox zone;
+	RectangleHitbox hitArea;
 	
 	public Aircraft(int x, int y, String imgFile) {
 		this.x = x;
@@ -27,22 +28,33 @@ public abstract class Aircraft implements Icon {
 			img = ImageIO.read(new File(imgFile));
 			w = img.getWidth();
 			h = img.getHeight();
-			zone = new Hitbox(this);
 			angle = (w == h) ? 90 : 0;
+			// zone = new Hitbox(this);			
+			hitArea = new RectangleHitbox(this);
 		} catch (IOException io) {
 			System.out.println(io);
 		}
 	}
 	
+	/*
 	public Hitbox getHitbox() {
-		return zone;
+		// return zone;
+	}
+	*/
+
+	public RectangleHitbox getHitArea() {
+		return hitArea;
+	}
+
+	public void resetHitArea() {
+		hitArea.setRect((double)x, (double)y, (double)w, (double)h);
 	}
 
 	public void setLocation(int x, int y) {
 		//sop("\nBefore\n" + zone.printBounds());
 		this.x += x;
 		this.y += y;
-		this.zone.resetBounds();
+		resetHitArea();
 		//sop("\nAfter\n" + zone.printBounds());
 	}	
 
@@ -52,7 +64,8 @@ public abstract class Aircraft implements Icon {
 
 	public void setX(int x) {
 		this.x = x;
-		this.zone.resetBounds();
+		// this.zone.resetBounds();
+		resetHitArea();
 	}
 
 	public int getY() {
@@ -61,7 +74,8 @@ public abstract class Aircraft implements Icon {
 
 	public void setY(int y) {
 		this.y = y;
-		this.zone.resetBounds();
+		// this.zone.resetBounds();
+		resetHitArea();
 	}
 
 	public int getIconWidth() {  
