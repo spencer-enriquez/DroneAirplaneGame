@@ -5,7 +5,7 @@
 <img src="drone.png" alt="Drone">
 <img src="airplane.png" alt="Plane">
 <p>Sidescroller game where the user move the
-drone to evade incoming airplanes. Made for CS 151 (Object Oriented Design) Final Project</p>
+drone to evade incoming airplanes. Made for CS 151 (Object Oriented Design) Final Project.</p>
 
 <h2>Team Members</h2>
 <p>Alvin Nguyen</p>
